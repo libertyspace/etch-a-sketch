@@ -1,0 +1,26 @@
+body {
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#canvas {
+  background-color: grey;
+  height: 500px;
+  width: 500px;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.squares {
+  background-color: black;
+  /* border: 1px solid yellow; */
+  /* width: 5px;
+  height: 5px; */
+  /* flex-grow: 1; */
+  /* flex-wrap: wrap; */
+}
