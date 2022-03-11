@@ -14,6 +14,26 @@ body {
   /* border: 2px solid black; */
   display: flex;
   flex-wrap: wrap;
+  box-shadow: 0 8px 16px 0 rgb(59, 88, 105, 0.2),
+    0 6px 20px 0 rgb(68, 105, 128, 0.19);
+}
+
+#headline {
+  color: lightskyblue;
+  font-size: 18px;
+  padding: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#buttons-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#container1 {
+  display: flex;
+  margin: 10px;
 }
 
 .squares {
@@ -25,6 +45,20 @@ body {
   /* flex-wrap: wrap; */
 }
 
-.squares-on-click {
+.color-to-black {
   background-color: black;
+}
+
+.square-to-orange {
+  background-color: orange;
+}
+
+button {
+  border-radius: 15px;
+  width: 180px;
+  border: 1px solid black;
+  background-color: lightskyblue;
+  font-size: 16px;
+  padding: 15px 30px;
+  margin: 5px;
 }
